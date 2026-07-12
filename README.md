@@ -227,3 +227,12 @@ This kernel was built incrementally and tested at every stage:
 5. Bump allocator implemented.
 6. Syscall interface implemented with per-call logging — verified against three simulated processes with distinct syscall patterns.
 7. Python n-gram anomaly detector implemented — verified to correctly flag the deliberately anomalous process.
+
+##Screenshots
+<img width="726" height="441" alt="WhatsApp Image 2026-07-12 at 13 03 26" src="https://github.com/user-attachments/assets/d27b3a22-a165-4c11-92bd-3c3b299d2b12" />
+<img width="733" height="468" alt="WhatsApp Image 2026-07-12 at 13 04 22" src="https://github.com/user-attachments/assets/c7570ced-c202-4c69-b0f2-dd1aa63c9232" />
+<img width="726" height="481" alt="WhatsApp Image 2026-07-12 at 13 49 06" src="https://github.com/user-attachments/assets/998f127d-f184-47ba-9c25-c5bbe9041c90" />
+<img width="723" height="462" alt="WhatsApp Image 2026-07-12 at 13 53 07" src="https://github.com/user-attachments/assets/41312840-ab6b-4207-963b-a46de0ef7a99" />
+
+
+
