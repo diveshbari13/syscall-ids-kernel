@@ -1,5 +1,7 @@
 #include "gdt.h"
 #include "idt.h"
+#include "pic.h"
+#include "serial.h"
 
 void kmain(void) {
     char *vga = (char*)0xB8000;
@@ -10,6 +12,9 @@ void kmain(void) {
     }
     gdt_init();
     idt_init();
+    pic_remap();
+    serial_init();
+    serial_write("Kernel boot: GDT, IDT, PIC, serial all initialized.\n");
 
     while (1) {}
 }
