@@ -1,0 +1,24 @@
+Kernel boot: GDT, IDT, PIC, serial all initialized.
+Syscall interface ready.
+[1] pid=1 syscall=1 arg=0
+  -> SYS_WRITE
+[2] pid=1 syscall=3 arg=64
+[3] pid=1 syscall=1 arg=0
+  -> SYS_WRITE
+[4] pid=1 syscall=4 arg=0
+  -> SYS_EXIT
+[5] pid=2 syscall=2 arg=0
+[6] pid=2 syscall=1 arg=0
+  -> SYS_WRITE
+[7] pid=2 syscall=4 arg=0
+  -> SYS_EXIT
+[8] pid=3 syscall=3 arg=4
+[9] pid=3 syscall=3 arg=4
+[10] pid=3 syscall=3 arg=4
+[11] pid=3 syscall=3 arg=4
+[12] pid=3 syscall=3 arg=4
+[13] pid=3 syscall=3 arg=4
+[14] pid=3 syscall=3 arg=4
+[15] pid=3 syscall=3 arg=4
+[16] pid=3 syscall=3 arg=4
+[17] pid=3 syscall=3 arg=4
